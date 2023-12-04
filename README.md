@@ -1,8 +1,7 @@
 # Connect4-Revenge La IA Contraataca
 Programa compila con el siguiente comando: <br>
 g++ -o main.exe main.cpp <br>
-Dentro del README del repositorio se debe incluir información sobre la
-implementación, decisiones de diseño, resultados
+
 # Un Programa para jugar contra una ia con dificultades <br>
 ## Para las decisiones de la IA se utilizo minimax con alpha, beta prunning <br>
 Se decidio utilizar  alpha,beta prunning como una mejor en optimización del algoritmo minimax, para evitar propagar tableros que no tenian relevancia en el algoritmo
