@@ -257,7 +257,7 @@ void menuEmpezarNueva(ControladorArchivo& cArch)
 	cout << "Recuerde que puede cancelar/guardar la partida escribiendo FIN/fin " << endl;
 	cout << "ADVERTENCIA (Las partidas con final se guardan automaticamente)" << endl;
 
-	GameController game = GameController(firstPlayer, depth, difficult, gameName);
+	GameController game = GameController(firstPlayer, depth, difficult, gameName, firstPlayer);
 	int guardar = game.playGame();
 	bool guardarIn = true;
 	switch (guardar)
