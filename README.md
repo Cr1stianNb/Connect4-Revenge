@@ -1,3 +1,5 @@
-# Connect4-Revenge
-Programa compila con el siguiente comando:
+# Connect4-Revenge La IA Contraataca
+Programa compila con el siguiente comando: <br>
 g++ -o main.exe main.cpp
+
+
